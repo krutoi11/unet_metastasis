@@ -6,6 +6,8 @@ from torch.utils.data import DataLoader
 
 img_size = 256
 
+a
+
 transform = torchvision.transforms.Compose([
     torchvision.transforms.ToTensor(),
     torchvision.transforms.Resize([img_size, img_size])])
